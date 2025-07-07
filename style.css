@@ -1,0 +1,81 @@
+/* Reset & global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header styling */
+header {
+  background: #000;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+header h1 {
+  margin-bottom: 10px;
+}
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main content */
+main {
+  padding: 20px;
+}
+h2, h3 {
+  margin-bottom: 10px;
+}
+
+/* Channel card grid */
+.channel-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+.channel {
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.channel iframe,
+.channel video {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  background: #111;
+  color: #ccc;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+/* Buttons (optional) */
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+.btn:hover {
+  background: #333;
+}
